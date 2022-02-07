@@ -67,6 +67,14 @@ div_result = divide(num_1, num_2)
 logger.debug('{} / {} = {}'.format(num_1, num_2, div_result))
 
 
+# ERROR:__main__:Tried to divide by zero
+# Traceback (most recent call last):
+#   File "c:\Users\USER\Desktop\Project\Python+OOP\Corey Schafer's Python in-depth tutorial\Logging-basic to advanced.py", line 46, in divide
+#     return x / y
+# ZeroDivisionError: division by zero
+# 2022-02-07 16:34:05,959:__main__:Created Employee: Corey Schafer - Corey.Schafer@email.com
+# 2022-02-07 16:34:05,960:__main__:Created Employee: Unknown User - Unknown.User@email.com
+
 
 
 
