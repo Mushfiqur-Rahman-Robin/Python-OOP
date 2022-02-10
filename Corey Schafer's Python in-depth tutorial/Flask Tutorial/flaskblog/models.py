@@ -1,7 +1,5 @@
 from datetime import datetime
 from flaskblog import db
-from forms import RegistrationForm, LoginForm
-
 
 class User(db.Model):
     id = db.Column(db.Integer, primary_key=True)
